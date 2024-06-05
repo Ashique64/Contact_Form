@@ -1,0 +1,145 @@
+* {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+}
+
+.container {
+    background-color: rgba(224, 240, 230, 1);
+    height: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form {
+        width: 37%;
+        background-color: white;
+        padding: 25px;
+        height: 83%;
+        border-radius: 10px;
+
+        .heading {
+            margin-bottom: 15px;
+            color: rgba(56, 55, 55, 0.951);
+            font-size: 22px;
+        }
+
+        .full_name {
+            display: flex;
+
+            .first {
+                margin-right: 7px;
+            }
+            .last {
+                margin-left: 7px;
+            }
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .radio {
+            display: flex;
+
+            .radio1 {
+                border: 1px solid #ccc;
+                width: 100%;
+                border-radius: 5px;
+                padding: 8px;
+                margin-right: 7px;
+                margin-bottom: 15px;
+
+                input {
+                    padding: 0;
+                    margin-bottom: 0;
+                    width: 11px;
+                    margin-left: 7px;
+                    position: relative;
+                    top: 3px;
+                    cursor: pointer;
+                }
+
+                span {
+                    font-size: 14px;
+                    margin-left: 10px;
+                }
+            }
+
+            .radio2 {
+                border: 1px solid #ccc;
+                width: 100%;
+                border-radius: 5px;
+                padding: 8px;
+                margin-left: 7px;
+                margin-bottom: 15px;
+
+                input {
+                    padding: 0;
+                    margin-bottom: 0;
+                    width: 11px;
+                    margin-left: 7px;
+                    position: relative;
+                    top: 3px;
+                    cursor: pointer;
+                }
+
+                span {
+                    font-size: 14px;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .message_box {
+            width: 100%;
+            height: 80px;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .check {
+            display: flex;
+            margin-bottom: 15px;
+
+            input {
+                width: 12px;
+                padding: 0;
+                margin-bottom: 0;
+                border: 1px solid #ccc;
+                border-radius: 0;
+                margin-right: 14px;
+                cursor: pointer;
+            }
+
+            span {
+                font-size: 12px;
+            }
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #117868;
+            border-radius: 5px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
